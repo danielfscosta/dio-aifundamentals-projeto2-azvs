@@ -1,2 +1,8 @@
-# dio-aifundamentals-projeto2-azvs
-Neste desafio de projeto, proposto no Bootcamp AI Fundamentals da DIO, são apresentados os resultados obtidos em um processo de análise e detecção de texto em imagens através do Azure Vision Studio.
+# Desafio de Projeto 2 - Reconhecimento Facial e transformação de imagens em Dados no Azure ML
+
+O processo de reconhecimento ou extração de texto em imagens é conhecido como *Optical Character Recognition* ou OCR. Técnicas de OCR baseadas em aprendizado de máquina e compostas por vários modelos avançados, como a utilizada neste projeto, potencializam essa capacidade, permitindo que digitalizações de textos manuscritos, documentos impressos, imagens de pôsteres, fotos de placas de ruas e outras fontes sejam intepretadas e suportadas em inúmeros idiomas globais.
+
+Os benefícios associados ao uso desta tecnologia são diversos e estendem-se desde a facilitação do acesso à versão digital do texto de documentos digitalizados, eliminação ou redução significativa da necessidade de entrada manual de dados, possibilidade de integração com aplicações de processamento inteligente de documentos (IDP) para extração de informações úteis, tradução em tempo real de textos em imagens que estejam em idiomas desconhecidos, até promover a acessibilidade e inclusão de pessoas com deficiência visual.
+
+Este desafio de projeto foi proposto no *Bootcamp AI Fundamentals da DIO* com objetivo de explorar as capacidades de reconhecimento de texto em imagens do Azure Vision Studio. Neste laboratório em específico utilizou-se unicamente a interface do portal do Vision Studio para a análise das imagens e obtenção dos resultados, não sendo escritos códigos para integração em aplicações. Este projeto utiliza materiais disponibilizados pelo Microsoft Learn neste [link](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html), além de imagens obtidas no site [Pixabay](https://pixabay.com) sob a licença Creative Commons Zero (CC0).
+
