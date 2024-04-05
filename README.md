@@ -61,6 +61,16 @@ Neste projeto será utilizado o serviço *Vision*, que embora não seja explorad
 
 4. Após carregada e processada a imagem, serão apresentados os resultados do texto extraído. Na guia ***Detected attributes***, o texto encontrado fica organizado em uma estrutura hierárquica de regiões, linhas e palavras. Na guia ao lado é possível visualizar o resultado estruturado em formato *JSON*, que possui maior grau de detalhamento ao apresentar parâmetros como a localização do polígono que envolve determinada porção do texto e o grau de confiança na previsão desta porção. Na imagem à esquerda, os polígonos são demonstrados visualmente, envolvendo as referidas porções de texto.
 
+### IMPORTANTE: Limpeza dos recursos provisionados
+
+1. Ao final do projeto, ao serem esgotadas as experimentações, recomenda-se que os recursos provisionados sejam removidos para evitar o desperdício e cobranças sobre custos não previstos. Para tal, retornar até o Portal do Azure e procurar pela página ***Resource Groups***, selecionar o grupo que contém o recurso criado anteriormente e em seguida ***Delete resource group***. Será solicitado que o nome do grupo de recursos seja informado para confirmar a remoção e é necessário finalmente selecionar ***Delete***.
+
+![image](https://github.com/danielfscosta/dio-aifundamentals-projeto2-azvs/assets/69484807/fca1c1b7-f5e3-4b0b-b309-2b0537bdf290)
+
+![image](https://github.com/danielfscosta/dio-aifundamentals-projeto2-azvs/assets/69484807/2f8abd44-6cba-4bbd-a7c4-fba87cada934)
+
+2. Ao final do processo, confirmar que realmente não sejam listados recursos remanescentes utilizados no projeto.
+
 ## Resultados obtidos
 
 Foram realizados testes com sete imagens obtidas no site [Pixabay](https://pixabay.com) sob a licença Creative Commons Zero (CC0). As imagens originais utilizadas podem ser encontradas no diretório [inputs](https://github.com/danielfscosta/dio-aifundamentals-projeto2-azvs/tree/main/inputs) e os resultados em formato *.json* podem ser acessados no diretório [output](https://github.com/danielfscosta/dio-aifundamentals-projeto2-azvs/tree/main/output).
